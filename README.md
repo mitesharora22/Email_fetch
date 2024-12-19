@@ -1,6 +1,4 @@
-# Email_fetch
-
-# Email Fetcher
+# Processing Unread Email
 
 This project demonstrates how to fetch unread emails and mark them as read using the Gmail API. Follow the steps below to set up and run the code.
 
