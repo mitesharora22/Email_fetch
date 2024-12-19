@@ -67,7 +67,7 @@ pip install -r requirements.txt
 2. Run the script to authenticate and fetch unread emails:
 
 ```bash
-python fetch_emails.py
+python main.py
 ```
 
 3. During the first run, a browser window will open prompting you to log in to your Google account and grant the necessary permissions.
@@ -80,6 +80,13 @@ python fetch_emails.py
 Check the console output for details of fetched emails. The script will automatically mark them as read in your Gmail inbox.
 
 ---
+
+## `sqldatabase.py` Overview
+- Manages SQLite database (`emails.db`).
+- Creates the `Emails` table.
+- Saves email details (sender, subject, timestamp).
+- Parses email data and ensures consistent timestamp formatting.
+
 
 ## Troubleshooting
 
